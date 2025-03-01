@@ -15,3 +15,9 @@ variable "instance_type" {
   description = "Type of aws instance"
   default     = "t2.micro"
 }
+
+variable "AWS_AMI" {
+  type = string
+  description = "Define aws ami image."
+  default = "ami-05f157b283f1f33b9"
+}
