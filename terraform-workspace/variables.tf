@@ -23,15 +23,15 @@ variable "AWS_AMI" {
 }
 
 variable "AWS_SECRET_KEY" {
-  sensitive = true
+  sensitive   = true
   description = "AWS secret key is defined here."
-  type = string
-  
+  type        = string
+
 }
 
 variable "AWS_ACCESS_KEY" {
-  sensitive = true
+  sensitive   = true
   description = "AWS access key is defined here."
-  type = string
-  
+  type        = string
+
 }
