@@ -1,5 +1,5 @@
 variable "instance_count" {
-  default     = 2
+  default     = 3
   description = "Number of instances we want to deploy"
 
 }
